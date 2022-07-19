@@ -1,6 +1,16 @@
-header {
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-area {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
 }
 
 nav>ul {
@@ -27,15 +37,57 @@ nav>ul>li:hover>ul {
     display: block;
 }
 
-/*section footer start*/
-.footer-aera {
-    background-color: black;
-    height: 120px;
+
+.journey-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
+.journey-img {
+    background-image: url(images/Circle\ design.svg);
+}
+
+
+
+
+
+
+
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*section footer start*/
+.footer-area {
+    background-color: #080836;
 }
 
 .footer-text {
@@ -54,6 +106,15 @@ footer {
     color: white;
     font-size: 10px;
     padding-bottom: 10px;
+}
+
+.footer-logo {
+    text-align: center;
+    color: white;
+}
+
+.footer-logo .fa-brands {
+    padding-left: 15px;
 }
 
 /*section footer end*/
